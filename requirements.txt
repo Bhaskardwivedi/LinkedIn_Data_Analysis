@@ -1,0 +1,27 @@
+# Core Packages
+pandas==1.5.3                # For data manipulation
+numpy==1.24.3                # For numerical operations
+
+# Scraping Packages
+selenium==4.15.0             # For dynamic website scraping
+beautifulsoup4==4.12.2       # For parsing HTML content
+lxml==4.9.3                  # HTML and XML parser for BeautifulSoup
+
+# Database/Storage (SQL Server)
+pyodbc==5.0.1                # SQL Server driver for Python
+sqlalchemy==2.0.22           # For ORM and database interaction with SQL Server
+
+# Machine Learning/Optional (if ML pipeline is added)
+scikit-learn==1.3.1          # For machine learning models
+
+# Visualization/Reporting (for Power BI and visualization)
+matplotlib==3.7.2            # Plotting library
+seaborn==0.12.2              # Statistical data visualization
+
+# Utilities
+requests==2.31.0             # For making HTTP requests
+python-dotenv==1.0.0         # For managing environment variables
+
+# Testing
+pytest==7.4.0                # For unit tests
+pytest-mock==3.11.1          # Mocking library for tests
